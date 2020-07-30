@@ -23,7 +23,7 @@ const {
 const memoizeOne = require('memoize-one').default || require('memoize-one')
 const condenseWhitespace = require('condense-whitespace')
 const urlRegex = require('url-regex')({ exact: true })
-const langs = Object.values(require('iso-639-3/to-1'))
+const langs = Object.values(require('iso-639-3/to-1.json'))
 const isRelativeUrl = require('is-relative-url')
 const fileExtension = require('file-extension')
 const _normalizeUrl = require('normalize-url')
